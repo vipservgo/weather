@@ -3,7 +3,7 @@ const searchButton = document.querySelector("#search-btn");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const daysForecastDiv = document.querySelector(".days-forecast");
 
-const API_KEY = "0748bcc8f3e9acf712322438b43cfd41"; // API key
+const API_KEY = "ee7c4b79648c7ec65f4c16b0b11a0ffe"; // API key
 
 // Create weather card HTML based on weather data
 const createWeatherCard = (cityName, weatherItem, index) => {
